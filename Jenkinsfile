@@ -11,5 +11,12 @@ pipeline {
         '''
       }
     }
+    stage('Hello1') {
+      steps {
+        sh '''
+          java -version
+        '''
+      }
+    }
   }
 }
